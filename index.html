@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tabelas</h1>
+    <table>
+        <tr>
+            <th>Nome1</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Informação adicionais</th>
+            <th>Informação adicionais</th>
+            <th>Informação adicionais</th>
+            <th>Informação adicionais</th>
+        </tr>
+        <tr>
+            <td rowspan="2">João</td>
+            <td>23</td>
+            <td>Sou estudante</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>23</td>
+            <td colspan="3">Programadora</td>
+        </tr>
+        <thead>
+            <tr>
+                <!-- th defini um header (cabeçalho) -->
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Informação adicionais</th>
+                <th>Informação adicionais</th>
+                <th>Informação adicionais</th>
+                <th>Informação adicionais</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- td defini uma informação da tabela -->
+                <td rowspan="2">João</td>
+                <td>23</td>
+                <td>Sou estudante</td>
+            </tr>
+            <tr>
+                <!-- td defini uma informação da tabela -->
+                <td>Maria</td>
+                <td>23</td>
+                <td colspan="3">Programadora</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
